@@ -1,0 +1,24 @@
+{
+  "network_name": "binarynetworks/Win95pts.net",
+  "y": "ScrnFntNtPrntrFnt",
+  "threshold": 0.055,
+  "n_pos": 14075,
+  "features": [
+    "HrglssDrtnAftrPrnt",
+    "PSERRMEM",
+    "Problem1",
+    "Problem2",
+    "Problem3",
+    "Problem4",
+    "Problem5",
+    "Problem6",
+    "PrtFile",
+    "PrtIcon",
+    "PrtStatMem",
+    "PrtStatOff",
+    "PrtStatPaper",
+    "PrtStatToner",
+    "REPEAT",
+    "TstpsTxt"
+  ]
+}

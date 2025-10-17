@@ -1,0 +1,30 @@
+{
+  "network_name": "binarynetworks/andes.net",
+  "y": "CHOOSE35",
+  "threshold": 0.501,
+  "n_pos": 0.26397132873535156,
+  "features": [
+    "GOAL_99",
+    "HORIZ53",
+    "SNode_119",
+    "SNode_120",
+    "SNode_123",
+    "SNode_124",
+    "SNode_134",
+    "SNode_135",
+    "SNode_136",
+    "SNode_151",
+    "SNode_155",
+    "SNode_24",
+    "SNode_31",
+    "SNode_40",
+    "SNode_46",
+    "SNode_65",
+    "SNode_68",
+    "SNode_71",
+    "TRY13",
+    "TRY14",
+    "TRY15",
+    "TRY26"
+  ]
+}

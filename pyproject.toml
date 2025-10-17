@@ -1,0 +1,36 @@
+[project]
+name = "bnc2d"
+version = "0.1.0"
+dependencies = ["pgmpy", "numpy", "networkx", "jpype1>=1.6.0"]
+requires-python = ">=3.11.12"
+readme = "README.md"
+
+
+[project.optional-dependencies]
+dev = [
+    "graphviz>=0.21,<0.22",
+    "pydot",
+    "tqdm>=4.67.1",
+    "kahypar>=1.3.5,<2",
+    "klaycircuits@git+https://github.com/ML-KULeuven/klay",
+    'mypy',
+    'pytest',
+    'yapf',
+    "ipykernel",
+    "jupyter",
+    "seaborn",
+    "pandas",
+    "matplotlib",
+    "pyparsing",
+    "pyyaml",
+    "pebble",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[dependency-groups]
+dev = ["pygraphviz>=1.14"]
+
+[tool.mypy]
+mypy_path = "src"

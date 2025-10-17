@@ -1,0 +1,21 @@
+{
+  "network_name": "cpcs54.net",
+  "y": "var_11",
+  "threshold": 0.529,
+  "n_pos": 0.53076171875,
+  "features": [
+    "var_13",
+    "var_16",
+    "var_17",
+    "var_23",
+    "var_29",
+    "var_30",
+    "var_37",
+    "var_41",
+    "var_42",
+    "var_43",
+    "var_46",
+    "var_52",
+    "var_53"
+  ]
+}

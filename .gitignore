@@ -1,0 +1,20 @@
+.venv/
+*.egg-info
+build/
+out/
+__pycache__/
+*.net.ac
+*.net.bmap
+*.net.cnf
+*.net.dtree
+*.net.lmap
+*.net.marginals
+*.net.pmap
+.pytest_cache
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+*.pkl
+.ipynb_checkpoints/
+.DS_Store
+*.swp

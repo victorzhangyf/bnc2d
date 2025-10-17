@@ -1,0 +1,89 @@
+net {
+}
+node var_0{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_1{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_10{
+    states = ("0"  "1"  "2");
+    weight = None;
+}
+node var_2{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_3{
+    states = ("0"  "1"  "2");
+    weight = None;
+}
+node var_4{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_5{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_6{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_7{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_8{
+    states = ("0"  "1");
+    weight = None;
+}
+node var_9{
+    states = ("0"  "1");
+    weight = None;
+}
+potential (var_0 |){
+ data = (0.5 0.5);
+}
+potential (var_1 | var_0){
+ data = ((0.1 0.9)
+ (0.9 0.1));
+}
+potential (var_10 | var_0){
+ data = ((0.1 0.4 0.3)
+ (0.5 0.2 0.5));
+}
+potential (var_2 | var_0){
+ data = ((0.2 0.8)
+ (0.8 0.2));
+}
+potential (var_3 | var_0){
+ data = ((0.2 0.7 0.3)
+ (0.1 0.3 0.4));
+}
+potential (var_4 | var_0){
+ data = ((0.1 0.9)
+ (0.9 0.1));
+}
+potential (var_5 | var_0){
+ data = ((0.2 0.8)
+ (0.8 0.2));
+}
+potential (var_6 | var_0){
+ data = ((0.3 0.7)
+ (0.7 0.3));
+}
+potential (var_7 | var_0){
+ data = ((0.1 0.9)
+ (0.9 0.1));
+}
+potential (var_8 | var_0){
+ data = ((0.2 0.8)
+ (0.8 0.2));
+}
+potential (var_9 | var_0){
+ data = ((0.3 0.7)
+ (0.7 0.3));
+}
